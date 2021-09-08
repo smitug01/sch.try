@@ -6,21 +6,16 @@
 //
 
 #include <iostream>
-#include <iomanip>
-#include <string>
-using std::cout;
-using std::endl;
+using namespace std;
 
 int main()
 {
-    int v1,v2,temp;
+    int v1,v2;
     
     v1=12;v2=36;
     cout<<"數字交換前 :v1="<<v1<<"，v2="<<v2<<endl;
-    temp=v1;
-    v1=v2;
-    v2=temp;
+    swap(v1,v2);
     cout<<"數字交換後 :v1="<<v1<<"，v2="<<v2<<endl;
-    system("pause");
+    system("Pause");
 return 0;
 }
