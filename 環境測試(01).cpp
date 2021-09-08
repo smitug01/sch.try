@@ -22,5 +22,5 @@ int main()
     v2=temp;
     cout<<"數字交換後 :v1="<<v1<<"，v2="<<v2<<endl;
     system("pause");
-    return 0;
+return 0;
 }
