@@ -7,10 +7,11 @@
 
 #include <iostream>
 #include <iomanip>
+#include <string>
 using std::cout;
 using std::endl;
 
-main()
+int main()
 {
     int v1,v2,temp;
     
@@ -20,5 +21,5 @@ main()
     v1=v2;
     v2=temp;
     cout<<"數字交換後 :v1="<<v1<<"，v2="<<v2<<endl;
-    system("Pause");
+return 0;
 }
