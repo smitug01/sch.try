@@ -23,5 +23,6 @@ int main()
     printf("兩數取餘數為：");
     cout <<  int_Dividend % int_Divisor << endl;
 //--end--
-    return 0;
+    system("Pause");
+return 0;
 }
